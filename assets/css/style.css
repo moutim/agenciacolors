@@ -14,7 +14,7 @@ html{
 img{
     max-width: 100%;
 }
-/* ----- */
+/* ----- ----------- ------- --------*/
 header{
     height: 70px;
     background-color: white;
@@ -97,7 +97,7 @@ header ul a{
 .link-2:hover,.link-2:focus{color:#118AB2;}
 .link-3:hover,.link-3:focus{color:#FFD166;}
 .link-4:hover,.link-4:focus{color:#06D6A0;}
-.link-5:hover,.link-5:focus{color:red;}
+.link-5:hover,.link-5:focus{color:#073B4C;}
 /* Classe para abrir o menu pelo JS */
 .abrir-menu{
     display: block;
@@ -138,7 +138,7 @@ article button{
     border: none;
     font-family: 'Oswald', sans-serif;
     transition: 1s;
-    font-weight: 600;
+    letter-spacing: 2px;
 }
 .yellow-button button{
     background-color: yellow;
@@ -158,25 +158,18 @@ article button{
 }
 .produtos{
     background-image: url(../imagens/produtos.png);
-    background-color: #ffee3c;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size:110vh;
-    background-position-x: 50%;
-    background-position-y: 100px;
+    background-size: cover;
+    background-position-x: center;
 }
 .ui-ux{
     background-image: url(../imagens/ux.png);
     background-attachment: fixed;
-    background-repeat: no-repeat;
     background-size: cover;
-    
 }
 .proposta{
     background-image: url(../imagens/proposta.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position-x: center;
 }
 .marca{
     background-image: url(../imagens/marca.png);
@@ -186,10 +179,8 @@ article button{
 }
 .publicacao{
     background-image: url(../imagens/publicacao.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: 50%;
+    background-position-x: center;
 }
 article button:hover{
     background-color: black;
@@ -197,11 +188,6 @@ article button:hover{
 }
 
 @media screen and (min-width:900px) {
-    .produtos{
-        background-size: 100%;
-        /* background-position-y: -60px; */
-        /* background-position-y: 100px; */
-    }
     main article{
         height: 85vh;
     }
