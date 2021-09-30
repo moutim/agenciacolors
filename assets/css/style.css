@@ -79,7 +79,7 @@ header ul li{
     width: 100%;
     text-align: center;
     z-index: 9999;
-    background-color:white;
+    background-color: rgba(255, 255, 255, 0.950);
     padding: 3px;
     font-family: 'Oswald', sans-serif;
 }
