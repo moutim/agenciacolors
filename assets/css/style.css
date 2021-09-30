@@ -97,7 +97,7 @@ header ul a{
 .link-2:hover,.link-2:focus{color:#118AB2;}
 .link-3:hover,.link-3:focus{color:#FFD166;}
 .link-4:hover,.link-4:focus{color:#06D6A0;}
-.link-5:hover,.link-5:focus{color:#073B4C;}
+.link-5:hover,.link-5:focus{color:red;}
 /* Classe para abrir o menu pelo JS */
 .abrir-menu{
     display: block;
