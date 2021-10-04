@@ -211,7 +211,61 @@ article div{
    top: 2px;
  }
 /* ------- */
+/* Regras para a pagina de confirmacao de idade */
+.pagina-confirmacao{
+    background-color: rgba(0, 0, 0, 0.900);
+}
+.bloco-confirmacao{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 10% 0;
+}
+.bloco-confirmacao h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 120px;
+}
+.bloco-confirmacao h2{
+    font-size: 30px;
+}
+.bloco-confirmacao div{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bloco-confirmacao input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0 10px;
+    box-shadow: black 0 0 3px inset;
+}
+.status{
+    color: red;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 20px 0;
+}
+.botao-submit{
+    margin: 15px 0;
+    background-color: #264653;
+}
 
+
+
+
+
+
+
+
+/* ------------------------------------- */
 @media screen and (min-width:700px) {
     main article{
         height: 85vh;

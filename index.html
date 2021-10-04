@@ -1,96 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/plugins/floating-wpp.css">
-    <link href='https://css.gg/menu-grid-r.css' rel='stylesheet'>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agência Colors</title>
+    <title>Agência Colors - Confirmação de idade</title>
 </head>
-<body>
-    <header>
-        <div class="div-header">
-            <div class="logo-marca">
-                <img src="assets/imagens/logo.png" alt="">
-                <h1 class="logo-mobile">Colors</h1>
-                <h1 class="logo-desktop">Agência Colors</h1>
-            </div>
+<body class="pagina-confirmacao">
 
-            <p class="menu"><i class="gg-menu-grid-r"></i></p>
-        </div>
-        <nav class="menu-aberto">
-            <ul>
-                <li><a href="#produtos" class="link-1">Produtos</a></li>
-                <li><a href="#ui-ux" class="link-2">UI/UX Design</a></li>
-                <li><a href="#proposta" class="link-3">Proposta</a></li>
-                <li><a href="#marca" class="link-4">Marca</a></li>
-                <li><a href="#publicacao" class="link-5">Publicação</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="bloco-confirmacao">
+        <h1>Esse é um site para <br> maiores de 18 anos.</h1>
+        <h2>Digite o ano de nascimento para confirmação:</h2>
+        <h2 class="status"></h2>
+        <form action="">
+            <div>
+                <label for="idade">Idade:</label>
+                <input type="text" name="idade" id="idade" placeholder="Exemplo: 2003">
+                <button type="submit" class="custom-btn btn-15 botao-submit">Confirmar</button>
+            </div>
+        </form>
+
+    </div>
     
-    <main>
-        <article class="produtos" id="produtos">
-            <div>
-                <h1>Produtos</h1>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                <button class="custom-btn btn-15">+ View case</button>
-            </div>
-        </article>
-
-        <article class="ui-ux yellow-button" id="ui-ux">
-            <div>
-                <h1>UI/UX Design</h1>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                <button class="custom-btn btn-15">+ View case</button>
-            </div>
-        </article>
-
-        <article class="proposta" id="proposta">
-            <div>
-                <h1>Proposta</h1>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                <button class="custom-btn btn-15">+ View case</button>
-            </div>
-        </article>
-
-        <article class="marca yellow-button" id="marca">
-            <div>
-                <h1>Marca</h1>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                <button class="custom-btn btn-15">+ View case</button>
-            </div>
-        </article>
-
-        <article class="publicacao yellow-button" id="publicacao">
-            <div>
-                <h1>Publicação</h1>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                <button class="custom-btn btn-15">+ View case</button>
-            </div>
-        </article>
-
-        <div id="myDiv"></div>
-    </main>
-    <script src="assets/js/js.js"></script>
-
-    <script src="assets/plugins/jquery-3.3.1.min.js"></script>
-    <script src="assets/plugins/floating-wpp.js"></script>
-    <script type="text/javascript">
-        $(function () {
-          $('#myDiv').floatingWhatsApp({
-            phone: '+5511998181280',
-            popupMessage: 'Olá, como posso ajudar você?',
-            message: "Gostaria de fazer um orçamento.",
-            showPopup: true,
-            showOnIE: false,
-            headerTitle: 'Vitor Moutim',
-            position: 'right',
-            zIndex: 9999
-          });
-        });
-      </script>
+    <script src="assets/js/idade.js"></script>
 </body>
 </html>
